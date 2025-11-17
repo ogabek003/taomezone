@@ -2,16 +2,17 @@
   "name": "vite-project",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "server": "node server/server.js"
   },
-  "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "firebase": "^11.0.0",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.545.0",
     "node-fetch": "^3.3.2",
