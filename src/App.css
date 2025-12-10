@@ -132,7 +132,7 @@ footer .bottom {
     width: 55px;
     height: 55px;
   }
-}
+}  
 
 /* 📱 Planshetlar (768px dan kichik) */
 @media (max-width: 768px) {
@@ -197,3 +197,7 @@ footer .bottom {
     transform: scale(0.9);
   }
 }
+@import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
